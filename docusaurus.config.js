@@ -3,7 +3,7 @@ const docsVersions = require('./versions.json');
 (module.exports = {
   title: 'Tgrade Documentation',
   tagline: 'Tgrade documentation',
-  url: 'https://docs-dev.tgrade.finance',
+  url: 'https://confio.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
@@ -20,7 +20,7 @@ const docsVersions = require('./versions.json');
         alt: 'tgrade',
         src: 'img/logo.svg',
         srcDark: 'img/logo_dark.svg',
-        href: 'https://docs-dev.tgrade.finance/',
+        href: 'https://confio.github.io/',
       },
       items: [
         {
