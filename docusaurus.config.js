@@ -4,7 +4,7 @@ const docsVersions = require('./versions.json');
   title: 'Tgrade Documentation',
   tagline: 'Tgrade documentation',
   url: 'https://confio.github.io',
-  baseUrl: '/',
+  baseUrl: '/tgrade-docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.svg',
