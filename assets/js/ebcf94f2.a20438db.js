@@ -1,1 +1,0 @@
-(self.webpackChunktgrade_docs=self.webpackChunktgrade_docs||[]).push([[228],{4252:function(e){"use strict";e.exports=JSON.parse('{"pluginId":"wiki","version":"current","label":"Next","banner":"none","isLast":true,"docsSidebars":{"wikiSidebar":[{"type":"link","label":"Introduction","href":"/wiki/"}]},"permalinkToSidebar":{"/wiki/":"wikiSidebar"}}')}}]);
