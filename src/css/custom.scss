@@ -7,66 +7,17 @@
 
 /* You can override the default Infima variables here. */
 
-@font-face {
-  font-family: 'Metropolis-Black';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-Black.woff2') format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Metropolis-Light';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-Light.woff2') format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Metropolis-ExtraLight';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-ExtraLight.woff2') format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Metropolis-Medium';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-Medium.woff2') format('woff2');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Metropolis-Regular';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-Regular.woff2') format('woff2');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Metropolis-SemiBold';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'Metropolis-Bold';
-  src: url('https://raw.githubusercontent.com/lovincyrus/Metropolis/master/Fonts/Webfonts/WOFF2/Metropolis-Bold.woff2') format('woff2');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
-  url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
-  url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:wght@200;300;400;700;800&display=swap');
 
 :root {
-  --ifm-color-primary: #8d5df9;
-  --ifm-color-primary-dark: #834ae2;
-  --ifm-color-primary-darker: #6c3dba;
-  --ifm-color-primary-light: #9c70f8;
-  --ifm-color-primary-lighter: #a77ffc;
-  --ifm-color-primary-lightest: #b697f8;
+  --ifm-color-primary: #67C8CC;
+  --ifm-color-primary-dark: #67C8CC;
+  --ifm-color-primary-darker: #67C8CC;
+  --ifm-color-primary-light: #67C8CC;
+  --ifm-color-primary-lighter: #67C8CC;
+  --ifm-color-primary-lightest: #67C8CC;
   --ifm-code-font-size: 70%;
-  --ifm-font-family-base: 'Metropolis-Regular';
+  --ifm-font-family-base: 'MontSerrat';
   --ifm-font-family-monospace: 'JetBrains Mono';
   --ifm-font-size-base: 115%;
   --ifm-navbar-height: 3.4em;
@@ -106,15 +57,15 @@
 }
 
 .navbar__link {
-  font-family: "Metropolis-SemiBold";
+  font-weight: 800;
 }
 
 .menu__link {
-  font-family: "Metropolis-SemiBold";
+  font-weight: 300;
 }
 
 .footer__link-item {
-  font-family: "Metropolis-ExtraLight";
+  font-weight: 200;
 }
 
 .table-of-contents__link {
@@ -126,11 +77,11 @@
 }
 
 .menu__link {
-  font-family: "Metropolis-Medium";
+  font-weight: 300;
 }
 
 .menu__link--active {
-  font-family: "Metropolis-Bold";
+  font-weight: 700;
 }
 
 .video {
