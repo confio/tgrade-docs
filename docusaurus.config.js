@@ -19,7 +19,6 @@ const docsVersions = require('./versions.json');
       logo: {
         alt: 'tgrade',
         src: 'img/logo.svg',
-        srcDark: 'img/logo_dark.svg',
         href: 'https://confio.github.io/',
       },
       items: [
@@ -99,11 +98,6 @@ const docsVersions = require('./versions.json');
           ],
         },
       ],
-      logo: {
-        alt: 'CosmWasm Logo',
-        src: 'img/logo_stacked.png',
-        href: 'https://tgrade.finance',
-      },
       copyright: `Copyright © ${new Date().getFullYear()} Confio OÜ`,
     },
     prism: {
