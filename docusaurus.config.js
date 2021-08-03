@@ -98,7 +98,7 @@ const docsVersions = require('./versions.json');
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Confio OÜ`,
+      copyright: `Copyright © ${new Date().getFullYear()} Confio GmbH`,
     },
     prism: {
       additionalLanguages: ['rust'],
