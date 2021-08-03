@@ -85,15 +85,15 @@ const docsVersions = require('./versions.json');
           items: [
             {
               label: 'Blog',
-              href: 'https://medium.com/cosmwasm',
+              href: 'https://medium.com/tgradefinance',
             },
             {
               label: 'Discord',
-              href: 'https://docs.cosmwasm.com/chat/',
+              href: 'https://discord.gg/WDbZwFZMuM',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/CosmWasm',
+              href: 'https://twitter.com/TgradeFinance',
             },
           ],
         },
