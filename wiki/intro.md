@@ -86,13 +86,19 @@ As opposed to CEX(centralized exchange), decentralized exchange(DEX) is a peer-t
 
 ### Double sign
 
+In the Cosmos blockchain ecosystem, double signing refers two signing and broadcasting two different pieces of information for the same height for the same chain. When this happens, usually the validator who double signed get punished/slashed.
+
 ### dPoS
 
 delegated Proof of Stake consensus, variation of Proof of Stake where delegators offer tokens to validators to stake and secure the blockchain. In theory, delegators need to compare each validators but they tend to choose "big" validators and/or with lower commission which leads to concentration of power to a few validators.
 
 ### Engagement
 
+In Tgrade, we use Proof of Engagement consensus. This is for the chain's sustainability, all the community members can contribute/engage in their own way, be it technical or non-technical like promotion, and all of this is done in a decentralized manner.
+
 ### Engagement Rewards
+
+When Tgrade community member engage, it is evaluated by Oversight community and he/she who engaged can get the engagement rewards. Validators can get combined rewards, staking and engagement rewards. 
 
 ### ERC20
 
@@ -108,9 +114,15 @@ Ethereum is a public blockchain protocol with smart contract scripting functiona
 
 ### Faucet
 
+In the cryptocurrency world, faucet means an application or a website where users can get rewards in cryptocurrency in exchange of small task completion.
+
 ### Fork
 
+Blockchain fork means a split of blockchain network. There is hard fork and soft fork depends on its backward compatibility.
+
 ### Genesis
+
+A genesis block is the first block of the blockchain upon which we add additional block on it and normally we call them block 0.
 
 ### Hardfork
 
@@ -170,6 +182,8 @@ As opposed to Hardfork, a softfork is a backward-compatible upgrade of nodes, th
 
 ### Stable coin
 
+Stablecoin is a cryptocurrency whose value is pegged to the fiat money, other cryptocurrency or tradable commodities.
+
 ### Token
 
 Cryptocurrency which doesn't have its own independant blockchain mainnet as opposed to coin
@@ -188,7 +202,11 @@ Blockchain validators verify transactions on blockchain, after this verification
 
 ### Yield-farming
 
+Just like yield on a bond or dividend, yield-farming in DeFi is a process that allows crypto user earn rewards on their holding digital asset. Normally the goal is to maximize the return, yield farmers typically move between different strategies. 
+
 ### Zero-knowledge
+
+In cryptography, Zero-knowledge proof refers to an interactive method for one party to prove to another that a statement is true, without revealing anything other than the veracity of the statement.
 
 ## Finance
 
