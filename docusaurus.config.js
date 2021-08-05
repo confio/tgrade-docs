@@ -1,5 +1,3 @@
-const docsVersions = require('./versions.json');
-
 (module.exports = {
   title: 'Tgrade Documentation',
   tagline: 'Tgrade documentation',
@@ -143,6 +141,7 @@ const docsVersions = require('./versions.json');
         id: 'wiki',
         path: 'wiki',
         routeBasePath: 'wiki',
+        editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
         sidebarPath: require.resolve('./sidebars/sidebarsWiki.js'),
       },
     ],
