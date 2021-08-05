@@ -1,5 +1,3 @@
-const docsVersions = require('./versions.json');
-
 (module.exports = {
   title: 'Tgrade Documentation',
   tagline: 'Tgrade documentation',
@@ -19,7 +17,6 @@ const docsVersions = require('./versions.json');
       logo: {
         alt: 'tgrade',
         src: 'img/logo.svg',
-        srcDark: 'img/logo_dark.svg',
         href: 'https://confio.github.io/',
       },
       items: [
@@ -86,25 +83,20 @@ const docsVersions = require('./versions.json');
           items: [
             {
               label: 'Blog',
-              href: 'https://medium.com/cosmwasm',
+              href: 'https://medium.com/tgradefinance',
             },
             {
               label: 'Discord',
-              href: 'https://docs.cosmwasm.com/chat/',
+              href: 'https://discord.gg/WDbZwFZMuM',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/CosmWasm',
+              href: 'https://twitter.com/TgradeFinance',
             },
           ],
         },
       ],
-      logo: {
-        alt: 'CosmWasm Logo',
-        src: 'img/logo_stacked.png',
-        href: 'https://tgrade.finance',
-      },
-      copyright: `Copyright © ${new Date().getFullYear()} Confio OÜ`,
+      copyright: `Copyright © ${new Date().getFullYear()} Confio GmbH`,
     },
     prism: {
       additionalLanguages: ['rust'],
@@ -132,7 +124,7 @@ const docsVersions = require('./versions.json');
       {
         debug: true,
         docs: {
-          editUrl: 'https://github.com/tgrade-docs/docs/edit/main',
+          editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
           id: 'docs',
         },
         theme: {
@@ -149,6 +141,7 @@ const docsVersions = require('./versions.json');
         id: 'wiki',
         path: 'wiki',
         routeBasePath: 'wiki',
+        editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
         sidebarPath: require.resolve('./sidebars/sidebarsWiki.js'),
       },
     ],
