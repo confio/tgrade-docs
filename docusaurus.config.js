@@ -124,7 +124,7 @@
       {
         debug: true,
         docs: {
-          editUrl: 'https://github.com/tgrade-docs/docs/edit/main',
+          editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
           id: 'docs',
         },
         theme: {
