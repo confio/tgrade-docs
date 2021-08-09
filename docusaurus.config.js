@@ -73,7 +73,7 @@
               href: 'https://web.tresorit.com/l/7HLiC#iYWzPgW2sSpzckRr6OxkmQ',
             },
             {
-              label: 'Validator pack',
+              label: 'Validator Pack',
               href: 'https://web.tresorit.com/l/uVYYu#JG5PflpG75i0Q0OptpboKw',
             },
             {
