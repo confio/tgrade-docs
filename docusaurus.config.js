@@ -55,26 +55,30 @@
               label: 'Tendermint Core',
               href: 'https://docs.tendermint.com/',
             },
+            {
+              label: 'CosmWasm Docs',
+              href: 'https://docs.cosmwasm.com/',
+            },
           ],
         },
         {
-          title: 'Repositories',
+          title: 'Resources',
           items: [
             {
-              label: 'CosmWasm/cosmwasm',
-              href: 'https://github.com/CosmWasm/cosmwasm',
+              label: 'Tgrade website',
+              href: 'https://tgrade.finance/',
             },
             {
-              label: 'CosmWasm/wasmd',
-              href: 'https://github.com/CosmWasm/wasmd',
+              label: 'Proof of Engagement',
+              href: 'https://web.tresorit.com/l/7HLiC#iYWzPgW2sSpzckRr6OxkmQ',
             },
             {
-              label: 'CosmWasm/cosmwasm-plus',
-              href: 'https://github.com/CosmWasm/cosmwasm-plus',
+              label: 'Validator pack',
+              href: 'https://web.tresorit.com/l/uVYYu#JG5PflpG75i0Q0OptpboKw',
             },
             {
-              label: 'CosmWasm/cawesome-wasm',
-              href: 'https://github.com/CosmWasm/cawesome-wasm',
+              label: 'Constitution',
+              href: 'https://web.tresorit.com/l/3Z0f7#0tr1RTUCPxapskNnW5wG-g',
             },
           ],
         },
