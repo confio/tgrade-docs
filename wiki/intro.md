@@ -288,21 +288,31 @@ In cryptography, Zero-knowledge proof refers to an interactive method for one pa
 
 #### Anti Money Laundering (AML)
 
+Anti-money laundering (AML) refers to the regulations, procedures and laws whose purpose is to prevent criminals from disguising illegally obtained funds as legitimate income. Financial institutions like banks monitor transactions and report when there is suspicious activities. Typically AML is more broader level compared to KYC.
+
 
 
 ### C
 
 #### Central CounterParties (CCP)
 
+Central Clearing Counterparties refers to a financial institution which provides clearing and settlement services for buyers as seller position, for sellers as buyer position.
+
 #### Central Securities Depository (CSD)
 
+Central Securities Depository refers to a financial institute that holds financial instruments such as mutual funds, equities, bonds etc.
+
 #### Credit default swap
+
+Credit Default Swap is a way to short bonds. This refers to a credit derivative contract between two counterparties. The buyer makes periodic payments to the seller, and in return receives a payoff if an underlying financial instrument defaults. The purpose of Credit Default Swap is either hedge or speculation.
 
 
 
 ### E
 
 #### Escrow
+
+Escrow refers to a legal arrangement in which a third party temporarily holds money or property until a particular condition has been met. In the context of cryptocurrency too, escrow service refers to the mediation service that holds cryptocurrency between a buyer and a seller until a certain obligation fulfills.
 
 #### ESG(Environment, Social and Governance)
 
@@ -321,6 +331,8 @@ Debt based instruments, issued for a fixed time period and paying interest. Also
 ### M
 
 #### Multilateral Trading Facility
+
+Multilateral Trading Facility(MTF) refers to a trading system that eases the exchange of financial instruments of different parties, and this is European Union regulatory term for a self-regulated financial trading venue.
 
 
 
@@ -347,6 +359,8 @@ A spoof order is where an order is submitted to an order book to show demand or 
 A person using two accounts trades between themselves, often with low quantities to make it appear that the asset is rising or falling in value with the hope that others take up the trend. This price manipulation is similar to Pump and Dump.
 
 #### Whitelist 
+
+Whitelist is a list of people or things considered to be trustworthy and if we use this as a verb, this means to put something or someone in the whitelist
 
 
 
