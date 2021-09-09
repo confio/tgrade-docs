@@ -34,6 +34,16 @@
           label: 'Wiki',
           docsPluginId: 'wiki',
         },
+        {
+          label: 'Developers',
+          position: 'left',
+          items: [
+            {
+              to: 'developer/smart-contracts/intro',
+              label: 'Smart Contracts',
+            }
+          ],
+        },
       ],
       hideOnScroll: true,
     },
@@ -147,6 +157,16 @@
         routeBasePath: 'wiki',
         editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
         sidebarPath: require.resolve('./sidebars/sidebarsWiki.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'developer',
+        path: 'developer',
+        routeBasePath: 'developer/smart-contracts',
+        editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
+        sidebarPath: require.resolve('./sidebars/sidebarsDeveloper.js'),
       },
     ],
   ],
