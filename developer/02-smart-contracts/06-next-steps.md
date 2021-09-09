@@ -4,11 +4,8 @@ sidebar_position: 6
 
 # Next Steps
 
-This is a very simple example for the escrow contract we developed, but it should show you what is possible, limited
-only by the wasm code you upload and the json messages you send. The next step is
-[Hijack Escrow tutorial](https://docs.cosmwasm.com/tutorials/hijack-escrow/intro) where you will edit a smart contract to put a backdoor that
-enables a thief to steal funds.
-
+This is a very simple example for the name service contract we interacted, but it should show you what is possible, limited
+only by the wasm code you upload and the json messages you send. 
 
 - [Videos and Workshops](https://docs.cosmwasm.com/tutorials/videos-workshops): We curated some video and workshop resources you can take a
   look at
