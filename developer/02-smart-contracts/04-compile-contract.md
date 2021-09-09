@@ -84,9 +84,8 @@ Optimized Compilation process will provide a binary ready to be deployed on a ne
 Smart contract binary size must be as small as possible for reduced gas cost. This will not only cost less on
 deployment, also for every single interaction. Simply, **optimize production code**
 using [cosmwasm/rust-optimizer](https://github.com/CosmWasm/rust-optimizer).
-**rust-optimizer** also produces reproducible builds of cosmwasm smart contracts. This means third parties can verify
+**rust-optimizer** also produces reproducible builds of smart contracts. This means third parties can verify
 the contract is actually the claimed code.
-
 
 ```shell
 docker run --rm -v "$(pwd)":/code \

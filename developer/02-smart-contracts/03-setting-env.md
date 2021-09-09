@@ -7,16 +7,11 @@ sidebar_position: 3
 You need an environment to run contracts. You can either run your node locally or connect to an existing network. For
 easy testing, testnet-2 network is online, you can use it to deploy and run your contracts.
 
-To verify testnet is currently running, make sure the following URLs are all working for you:
-
 - [https://rpc.testnet-2.tgrade.io](https://rpc.testnet-2.tgrade.io)
 - [https://lcd.testnet-2.tgrade.io](https://lcd.testnet-2.tgrade.io)
 - [https://faucet.testnet-2.tgrade.io](https://faucet.testnet-2.tgrade.io)
 
 - Block Explorer: [https://testnet.tgrade.aneka.io](https://testnet.tgrade.aneka.io)
-
-You can find more information about other cosmwasm open testnets:
-[CosmWasm/testnets](https://github.com/CosmWasm/testnets).
 
 ## Setup Go CLI {#setup-go-cli}
 
@@ -45,8 +40,8 @@ wasmd keys add wallet
 wasmd keys add wallet2
 ```
 
-You need some tokens in your address to interact. If you are using local node you can skip this step. Requesting tokens
-from faucet:
+You need some tokens in your address to interact. 
+Requesting tokens from faucet:
 
 ```shell
 JSON=$(jq -n --arg addr $(wasmd keys show -a wallet) '{"denom":"utgd","address":$addr}') && curl -X POST --header "Content-Type: application/json" --data "$JSON" https://faucet.testnet-2.tgrade.io/credit
@@ -55,9 +50,7 @@ JSON=$(jq -n --arg addr $(wasmd keys show -a wallet2) '{"denom":"utgd","address"
 
 ## Export wasmd Parameters {#export-wasmd-parameters}
 
-If you intend to use wasmd as client, we recommend you to setup these variables. Otherwise You will have to define type
-in node, chain id and gas-prices details with every command you execute. Also for this tutorial we will use these
-variables. So make sure you export these before proceeding.
+Export wasmd variables for setting up node endpoint and transaction configuration:
 
 ```bash
 # bash

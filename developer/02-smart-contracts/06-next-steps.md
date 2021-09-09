@@ -7,6 +7,8 @@ sidebar_position: 6
 This is a very simple example for the name service contract we interacted, but it should show you what is possible, limited
 only by the wasm code you upload and the json messages you send. 
 
+For more CosmWasm learning content you can follow links below:
+
 - [Videos and Workshops](https://docs.cosmwasm.com/tutorials/videos-workshops): We curated some video and workshop resources you can take a
   look at
 - [cosmwasm/cawesome-wasm](https://github.com/CosmWasm/cawesome-wasm): Curated CosmWasm resources
@@ -20,4 +22,3 @@ only by the wasm code you upload and the json messages you send.
   Contributions are welcome.
 - [InterWasm DAO](https://github.com/CosmWasm/InterWasmDAO): DAO for CosmWasm. If you have a great community project and require funds or help, create an [IWP](https://github.com/CosmWasm/InterWasmDAO#interwasm-proposalsiwps)
 
-Happy Hacking!

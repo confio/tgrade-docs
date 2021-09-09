@@ -73,7 +73,7 @@ for `wasmd`, which needs it for the singlepass compiler with gas metering and mo
 `wasmd` is the backbone of CosmWasm platform. It is both blockchain node and interaction client. 
 It is the implementation of a Cosmos zone with wasm smart contracts enabled.
 
-`tgrade` binary that will be released soon is a modified version of `wasmd`. For deployment and interaction, we will
+`tgrade` binary that will be released is a modified version of `wasmd`. For deployment and interaction, we will
 use `wasmd` for now.
 
 :::warning

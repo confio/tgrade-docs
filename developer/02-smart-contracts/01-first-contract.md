@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Your First Contract
 
-Buckle up, we will now get first-hand experience with Tgrade Smart Contracting experience on CosmWasm.  
+We will now get first-hand experience with Tgrade Smart Contracting experience.
+
 Tgrade is built using modular technology: [Tendermint](https://tendermint.com/), [Cosmos SDK](https://cosmos.network/) and [CosmWasm](https://cosmwasm.com/). 
 This documentation focuses on CosmWasm part of the stack where the smart contract engine lives. So keep the rest of the stack out of your focus during this documentation.
 
