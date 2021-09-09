@@ -34,6 +34,16 @@
           label: 'Wiki',
           docsPluginId: 'wiki',
         },
+        {
+          label: 'Developers',
+          position: 'left',
+          items: [
+            {
+              to: 'developer/smart-contracts/intro',
+              label: 'Smart Contracts',
+            }
+          ],
+        },
       ],
       hideOnScroll: true,
     },
@@ -154,7 +164,7 @@
       {
         id: 'developer',
         path: 'developer',
-        routeBasePath: 'developer',
+        routeBasePath: 'developer/smart-contracts',
         editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
         sidebarPath: require.resolve('./sidebars/sidebarsDeveloper.js'),
       },

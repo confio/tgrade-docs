@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Developer Documentation
+# Introduction
 
 :::warning
 Under Construction
