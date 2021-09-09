@@ -149,5 +149,15 @@
         sidebarPath: require.resolve('./sidebars/sidebarsWiki.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'developer',
+        path: 'developer',
+        routeBasePath: 'developer',
+        editUrl: 'https://github.com/confio/tgrade-docs/edit/main',
+        sidebarPath: require.resolve('./sidebars/sidebarsDeveloper.js'),
+      },
+    ],
   ],
 });
