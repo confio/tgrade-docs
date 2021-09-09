@@ -63,11 +63,6 @@ rustup target list --installed
 rustup target add wasm32-unknown-unknown
 ```
 
-For those new to rust, the `stable` channel comes out every 6 weeks with a stable release. The `nightly` channel is the
-bleeding edge and not only is it a version or two ahead (for testing), but it allows some extra unstable features, whose
-APIs may change. For compiling `wasm`, you will want to use `stable`. We use `nightly` to compile the runtime
-for `wasmd`, which needs it for the singlepass compiler with gas metering and more.
-
 ## wasmd {#wasmd}
 
 `wasmd` is the backbone of CosmWasm platform. It is both blockchain node and interaction client. 
@@ -100,16 +95,6 @@ wasmd version
 `$HOME/go/bin` by default, please make sure that is set up in your `PATH` as well, which should be the case in general
 for building Go code from source.
 :::
-
-## Further Information on the Cosmos SDK {#further-information-on-the-cosmos-sdk}
-
-These represent an instance of a blockchain that utilizes all of the stable features of
-the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk). As such, `wasmd` have all the same features (plus WASM smart
-contracts obviously). If you are a depth first learner, take a look at
-the [Gaia docs](https://github.com/cosmos/gaia/tree/main/docs/gaia-tutorials). If you'd like to learn more about getting
-started with the Cosmos SDK in general, take a look at the series of
-[Tutorials](https://tutorials.cosmos.network/) that show how to build custom modules for application-specific
-blockchains.
 
 ## Setting up your IDE {#setting-up-your-ide}
 

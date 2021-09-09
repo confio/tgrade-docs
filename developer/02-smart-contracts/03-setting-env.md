@@ -17,7 +17,7 @@ easy testing, testnet-2 network is online, you can use it to deploy and run your
 
 Let's configure `wasmd` exec, point it to testnets, create wallet and ask tokens from faucet:
 
-First source the testnet-2 network configurations to the shell:
+First, source the testnet-2 network configurations to the shell:
 
 ```shell
 source <(curl -sSL https://gist.githubusercontent.com/orkunkl/773e1798dc04ac7d06f468a778e90db6/raw/747290af38420138c1179ec3ce7d89f28e3accca/testnet-2_defaults.env)

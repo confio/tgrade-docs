@@ -6,8 +6,7 @@ sidebar_position: 4
 
 In this section, we will download a sample contract, compile to it to wasm binary executable.
 
-Please first review the [client setup instructions](03-setting-env.md), and configure and verify a client, either Go CLI or
-Node.js console.
+Please first review the [client setup instructions](03-setting-env.md), and configure and verify a client.
 
 ## Compiling and Testing Contract {#compiling-and-testing-contract}
 
@@ -37,7 +36,7 @@ strip all unused code out:
 RUSTFLAGS='-C link-arg=-s' cargo wasm
 ```
 
-This produces a file about 162kB. We use this and another optimizer in the next [last section](#optimized-compilation)
+This produces a file around 160kB. We use this and another optimizer in the next [last section](#optimized-compilation)
 to produce the final product uploaded to the blockchain. You don't need to worry about running this yourself (unless you
 are curious), but you should have an idea of the final size of your contract this way.
 
