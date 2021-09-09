@@ -13,7 +13,7 @@ Node.js console.
 
 Let's download the repo in which we collect
 [`cw-examples`](https://github.com/CosmWasm/cw-examples) and try out an existing simple name service
-contract where mimics a name service marketplace. Also this tutorials is the defacto cosmos-sdk entrance tutorial.
+contract where mimics a name service marketplace on tgrade. You can run any CosmWasm smart contract on Tgrade network. We picked this contract due to its simplicity.
 First, clone the repo and try to build the wasm bundle:
 
 ```shell

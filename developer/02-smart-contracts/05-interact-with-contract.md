@@ -32,8 +32,7 @@ diff artifacts/cw_nameservice.wasm download.wasm
 
 ### Instantiating the Contract {#instantiating-the-contract}
 
-We can now create an instance of this wasm contract. Here the verifier will fund an escrow, that will allow wallet to
-control payout and upon release, the funds go to bob.
+We can now create an instance of this wasm contract. We instantiate smart contract with defined purchase and transfer price.
 
 ```shell
 # instantiate contract and verify
@@ -75,7 +74,7 @@ wasmd tx wasm execute $CONTRACT "$REGISTER" \
 NAME_QUERY='{"resolve_record": {"name": "freddy"}}'
 wasmd query wasm contract-state smart $CONTRACT "$NAME_QUERY" $NODE --output json
 # {"data":{"address":"tgrade1av9uhya7ltnusvunyqay3xcv9x0nyc872cheu5"}}
-:%
+
 # buy and transfer name record to wallet2
 TRANSFER='{"transfer":{"name":"freddy", "to": "tgrade149mvf8wrumxz45lg3tdpgylwxrpw7gyav58cu6"}}'
 wasmd tx wasm execute $CONTRACT "$TRANSFER" \
