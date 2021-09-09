@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Installation
 
-In this section, we will gear up your workhorse for developing, deploying and, enjoying smart contracts on Cosmos SDK.
+In this section, we will gear up your workhorse for developing, deploying and, enjoying smart contracts on Tgrade network.
 
 ## Go {#go}
 
@@ -70,13 +70,8 @@ for `wasmd`, which needs it for the singlepass compiler with gas metering and mo
 
 ## wasmd {#wasmd}
 
-`wasmd` is the backbone of CosmWasm platform. It is the implementation of a Cosmoszone with wasm smart contracts
-enabled.
-
-
-This code was forked from the `cosmos/gaia` repository as a basis and then added x/wasm and cleaned up many
-gaia-specific files. However, the wasmd binary should function just like gaiad except for the addition of the x/wasm
-module.
+`wasmd` is the backbone of CosmWasm platform. It is both blockchain node and interaction client. 
+It is the implementation of a Cosmos zone with wasm smart contracts enabled.
 
 `tgrade` binary that will be released soon is a modified version of `wasmd`. For deployment and interaction, we will
 use `wasmd` for now.
@@ -106,7 +101,7 @@ for building Go code from source.
 
 These represent an instance of a blockchain that utilizes all of the stable features of
 the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk). As such, `wasmd` have all the same features (plus WASM smart
-contracts obviously). If you'd like to learn more about accessing those features take a look at
+contracts obviously). If you are a depth first learner, take a look at
 the [Gaia docs](https://github.com/cosmos/gaia/tree/main/docs/gaia-tutorials). If you'd like to learn more about getting
 started with the Cosmos SDK in general, take a look at the series of
 [Tutorials](https://tutorials.cosmos.network/) that show how to build custom modules for application-specific

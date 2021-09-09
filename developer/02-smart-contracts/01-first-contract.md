@@ -4,17 +4,13 @@ sidebar_position: 1
 
 # Your First Contract
 
-Buckle up, we will now get first-hand experience with CosmWasm, by starting up our own CosmWasm-enabled blockchain (just
-one node for now), modifying an existing contract, deploying it to our system, and executing it via the cli. If you are
-more *research first then get your hands dirty second* person, you should go ahead
-to [Architecture](https://docs.cosmwasm.com/docs/architecture/multichain/) read it first and then head back here.
+Buckle up, we will now get first-hand experience with Tgrade Smart Contracting experience on CosmWasm.  
+Tgrade is built using modular technology: [Tendermint](https://tendermint.com/), [Cosmos SDK](https://cosmos.network/) and [CosmWasm](https://cosmwasm.com/). 
+This documentation focuses on CosmWasm part of the stack where the smart contract engine lives. So keep the rest of the stack out of your focus during this documentation.
 
 We will not dive into smart contract development in this section to provide an easy to digest introduction. Also, you
 can follow the steps here to test out smart contracts live on a testnet without drowning in smart contract development
-details. We will demonstrate setting up environment, compiling, deploying, and interacting. Then to make things a bit
-more interesting, we will show modifying the example escrow contract by adding a backdoor to it in
-the [Hijack Escrow tutorial](https://docs.cosmwasm.com/tutorials/hijack-escrow/intro). It exposes an identical API to the original one, but has
-one hidden command added. This also shows the importance of verifying the source code behind any contract you run.
+details. We will demonstrate setting up environment, compiling, deploying, and interacting. 
 
 This is designed for programmers who are comfortable with the command-line and using Linux or MacOS. It is helpful to
 have a basic understanding of Rust and Go, but we will lead you through, so fast learners need no prior knowledge.
