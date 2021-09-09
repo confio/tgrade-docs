@@ -76,6 +76,10 @@ It is the implementation of a Cosmos zone with wasm smart contracts enabled.
 `tgrade` binary that will be released soon is a modified version of `wasmd`. For deployment and interaction, we will
 use `wasmd` for now.
 
+:::warning
+ARM architecture is not supported at the moment. You can deploy contracts on [GitPod](https://medium.com/cosmwasm/cosmwasm-gitpod-f1b082994b7c) or an Ubuntu remote machine
+:::
+
 ```shell
 git clone https://github.com/CosmWasm/wasmd.git
 cd wasmd
